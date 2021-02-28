@@ -117,6 +117,9 @@ div #left {
 .blog {
     background-color: #4169e1;
 }
+.projects {
+    background-color: #7cfc00;
+}
 
 #update time {
     display: inline-block;
