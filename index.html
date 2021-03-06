@@ -10,7 +10,111 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7HKPYJ8X5"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag(){dataLayer.push(arguments);}<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/Yuulis.png">
+
+    　　
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7HKPYJ8X5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C7HKPYJ8X5');
+    </script>
+
+    <title>Yuulis Portal</title>
+</head>
+
+<body>
+    <div class="bg_pattern">
+
+        <div id="pagebody">
+            <!-- Header -->
+            <div id="header">
+                <h1><a href="index.html"><img src="images\title_logo.png" alt="Yuulis Portal"></a></h1>
+            </div>
+
+            <!-- Main Menu -->
+            <ul id="menu">
+                <li><a href="index.html" class="botton">Home</a></li>
+                <li><a href="projects.html" class="botton">Projects</a></li>
+                <li><a href="blog.html" class="botton">Blog</a></li>
+                <li><a href="links.html" class="botton">links</a></li>
+            </ul>
+
+            <!-- Main (left)-->
+            <div id="left">
+
+                <h2 class="h2title">更新情報</h2>
+                <iframe id="update" src="updating.html" width="100%" height="250px" frameborder="0"></iframe>
+
+                <h2 class="h2title">今日のプロジェクト</h2>
+                <h3>スピログラフ</h3>
+                <small>下の2つのスライダーで形を変えられます。形によっては途中でグラフが途切れることがあります（Webページをかるくするため）。</small>
+                <iframe src="randomProjects\gragh\main.html" width="100%" height="650px" scrolling="no"
+                    frameborder="0"></iframe>
+
+                　　<h2 class="h2title">プライバシーポリシー</h2>
+                <p>当サイトはアクセス解析のためにGoogleアナリティクスを使用しています。</p>
+                <p>Googleアナリティクスは情報収集の際にCookieを使用しています。収集される情報は匿名であり、個人の特定を可能にするものではありません。</p>
+                <p>情報の収集を拒否する場合には、ブラウザの設定からCookieを無効にすることでできます。</p>
+
+                <p><a href="https://marketingplatform.google.com/about/analytics/terms/jp/" target="_blank"
+                        rel="noopener noreferrer">Googleアナリティクス利用規約</a></p>
+                <p><a href="https://policies.google.com/technologies/partner-sites?hl=ja" target="_blank"
+                        rel="noopener noreferrer">Googleポリシーと規約</a></p>
+
+                <h2 class="h2title">このサイトへのコメントは...</h2>
+                <p>このサイトへのご意見等ありましたら、TwitterのDMまたはGithubまでお願いいたします。</p>
+
+            </div>
+
+            <!-- Main (right)-->
+            <div id="right">
+
+                <h2 class="h2title">プロフィール</h2>
+                <div class="profile">
+                    <div class="profile_inner">
+                        <div class="profile_thumb">
+                            <img src="images/Yuulis.png" alt="アイコン">
+                        </div>
+                        <div class="profile_contents">
+                            <span class="profile_name">
+                                <p>Yuulis</p>
+                            </span>
+                            <span class="profile_job">
+                                <p>学生</p>
+                            </span>
+                            <span class="profile_intro">プログラミングとゲームが大好きな中学生。</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="h2title">参照数ランキング</h2>
+                <iframe id="ranking" src="ranking.html" width="100%" height="1500px" scrolling="no"
+                    frameborder="0"></iframe>
+
+            </div>
+
+            <!-- Footer-->
+            <div id="footer">
+                <small>© 2021 Yuulis Lab All Rights Reserved.</small>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
       gtag('js', new Date());
     
       gtag('config', 'G-C7HKPYJ8X5');
