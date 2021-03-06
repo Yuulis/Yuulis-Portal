@@ -1,15 +1,5 @@
 @charset "utf-8";
-/*===== ページ全般 =====*/
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-size: 95%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 1.5;
-    color: #333333;
-}@charset "utf-8";
+
 /*===== ページ全般 =====*/
 * {
     margin: 0;
