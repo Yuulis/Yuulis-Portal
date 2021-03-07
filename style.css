@@ -113,7 +113,7 @@ div #left {
     color: #ffffff;
     display: inline-block;
     margin: 5px 20px;
-    padding: 5px;
+    padding: 5px 10px;
 }
 .all {
     background-color: #b0c4de;
@@ -122,7 +122,7 @@ div #left {
     background-color: #4169e1;
 }
 .projects {
-    background-color: #7cfc00;
+    background-color: #9400d3;
 }
 
 #update time {
