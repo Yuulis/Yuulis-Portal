@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    　　
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7HKPYJ8X5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C7HKPYJ8X5');
+    </script>
+
+    <title>Unityで強化学習をしてみた話 1</title>
+</head>
+
+<body>
+
+    <p>どうも、お久しぶりです。</p>
+    <p>書くことが決まるまで結構時間かかりました。</p>
+    <p>今回から、何回かにわたってUnityで強化学習をした話を備忘録代わりに書いていきます。</p>
+
+    <p>Unityで強化学習の環境を整えるにあたって、参考にしたのがこの動画と、</p>
+    <iframe width="900" height="506" src="https://www.youtube.com/embed/DoDtGx3B-b8?list=LL" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    <p>このサイト。 </p>
+    <p><a href="https://qiita.com/2019Shun/items/d811bbd470fc9cddcc3d" target="_blank"
+            rel="noopener noreferrer">Windows10でUnityとML-Agentsを使った強化学習 ～自分で新しく環境を作成して学習することろまで～</a></p>
+
+    <p>動画の方はMacによる解説だったので、「Pythonおよびml-agentsパッケージのインストール」からはQiitaのサイトの方のやり方で環境構築をしました。</p>
+
+    <p>基本はこの2つの手順に従ってやっていけばいいのですが、学習を始める際に、注意することが二つ。</p>
+    <p>まず、ml-agents-release_3フォルダで実行するコマンドを打つときに、run-idをすでに実行した名前にしないこと。</p>
+
+
+    <p><b>mlagents-learn config/ppo/3DBall.yaml --run-id=first3DBallRun</b></p>
+
+    <p>上の例では、"first3DBallRun"のところです。</p>
+
+    <p>もう一つ。このコマンドを実行した後に、次のような表記が出ます。</p>
+    <p><b>Start training by pressing the Play button in the Unity Editor.</b></p>
+
+    <p>これが出た後は、なるべく早くUnityのプレイボタンを押してください。</p>
+    <p>ある程度時間がたつと、エラーが出て、もう一度run-idを打つところからやり直しになります。</p>
+
+    <p>いかがでしたでしょうか。環境構築は時間がかかりますが、一度やってしまえばあとは簡単です。</p>
+    <p>ぜひ、皆さんもやってみてください。</p>
+
+</body>
+
+</body>
+
+</html>
