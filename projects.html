@@ -1,82 +1,99 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="images/Yuulis.png">
 
-    　　<!-- Global site tag (gtag.js) - Google Analytics -->
+    　　
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7HKPYJ8X5"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-C7HKPYJ8X5');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C7HKPYJ8X5');
     </script>
 
     <title>Yuulis Portal | Projects</title>
 </head>
+
 <body>
-<div class="bg_pattern">
+    <div class="bg_pattern">
 
-<div id="pagebody">
-<!-- Header -->
-    <div id="header">
-      <h1><a href="index.html"><img src=images\title_logo.png alt="Yuulis Portal"></a></h1>
-    </div>
-    
-<!-- Main Menu -->    
-    <ul id="menu">
-        <li><a href="index.html" class="botton">Home</a></li>
-        <li><a href="projects.html" class="botton">Projects</a></li>
-        <li><a href="blog.html" class="botton">Blog</a></li>
-        <li><a href="links.html" class="botton">links</a></li>
-    </ul>
+        <div id="pagebody">
+            <!-- Header -->
+            <div id="header">
+                <h1><a href="index.html"><img src=images\title_logo.png alt="Yuulis Portal"></a></h1>
+            </div>
 
-<!-- Main (left)-->
-<div id="left">
+            <!-- Main Menu -->
+            <ul id="menu">
+                <li><a href="index.html" class="botton">Home</a></li>
+                <li><a href="projects.html" class="botton">Projects</a></li>
+                <li><a href="blog.html" class="botton">Blog</a></li>
+                <li><a href="links.html" class="botton">links</a></li>
+            </ul>
 
-    <h2 class="h2title">公開中の作品</h2>
+            <!-- Main (left)-->
+            <div id="left">
 
-    <h3>右上の三角ボタンで遊べます</h3>
-    
-    <h2 class="projectTitle">ストップウォッチ</h2>
-    <iframe id="projects"  src="projects\Stopwatch\Stopwatch.html" width="480px" height="360px" frameborder="0"></iframe>
-    <iframe id="projects"  src="projects\Stopwatch\Description.html" width="300px" height="360px" frameborder="0"></iframe>
+                <h2 class="h2title">公開中の作品</h2>
 
-</div>
+                <h3>※右上の三角ボタンで遊べます</h3>
 
-<!-- Main (right)-->
-<div id="right">
-    
-    <h2 class="h2title">プロフィール</h2>
-    <div class="profile">
-        <div class="profile_inner">
-        <div class="profile_thumb">
-            <img src="images/Yuulis.png" alt="アイコン">
+                <h2 class="projectTitle">ストップウォッチ</h2>
+                <iframe id="projects" src="projects\Stopwatch\Stopwatch.html" width="480px" height="360px"
+                    frameborder="0"></iframe>
+                <iframe id="projects" src="projects\Stopwatch\Description.html" width="300px" height="360px"
+                    frameborder="0"></iframe>
+
+                <h2 class="projectTitle">ライフゲーム</h2>
+                <iframe id="projects" src="projects\Life game\Life game.html" width="480px" height="360px"
+                    frameborder="0"></iframe>
+                <iframe id="projects" src="projects\Life game\Description.html" width="300px" height="360px"
+                    frameborder="0"></iframe>
+
+            </div>
+
+            <!-- Main (right)-->
+            <div id="right">
+
+                <h2 class="h2title">プロフィール</h2>
+                <div class="profile">
+                    <div class="profile_inner">
+                        <div class="profile_thumb">
+                            <img src="images/Yuulis.png" alt="アイコン">
+                        </div>
+                        <div class="profile_contents">
+                            <span class="profile_name">
+                                <p>Yuulis</p>
+                            </span>
+                            <span class="profile_job">
+                                <p>学生</p>
+                            </span>
+                            <span class="profile_intro">プログラミングとゲームが大好きな中学生。</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="h2title">参照数ランキング</h2>
+                <iframe id="ranking" src="ranking.html" width="100%" height="1500px" scrolling="no"
+                    frameborder="0"></iframe>
+
+            </div>
+
+            <!-- Footer-->
+            <div id="footer">
+                <small>© 2021 Yuulis Lab All Rights Reserved.</small>
+            </div>
+
         </div>
-        <div class="profile_contents">
-            <span class="profile_name"><p>Yuulis</p></span>
-            <span class="profile_job"><p>学生</p></span>
-            <span class="profile_intro">プログラミングとゲームが大好きな中学生。</span>
-        </div>
-        </div>   
+
     </div>
-
-    <h2 class="h2title">参照数ランキング</h2>
-    <iframe id="ranking" src="ranking.html" width="100%" height="1500px" scrolling="no" frameborder="0"></iframe>
-
-</div>
-
-<!-- Footer-->
-<div id="footer">
-    <small>© 2021 Yuulis Lab  All Rights Reserved.</small>
-</div>
-
-</div>
-
-</div>
 </body>
+
 </html>
